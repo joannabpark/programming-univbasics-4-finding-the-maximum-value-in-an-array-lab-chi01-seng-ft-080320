@@ -2,7 +2,7 @@ def find_max_value(array)
   count = 0
   max_value = nil
   while count < array.length do
-    if array[count] == 5
+    if array[count] == 1000
       max_value = count
     end
     count += 1
